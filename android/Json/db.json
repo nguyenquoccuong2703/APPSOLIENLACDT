@@ -1,0 +1,1111 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "UserName": "us1",
+      "PassWord": "1234",
+      "UserType": "1"
+    },
+    {
+      "id": "2",
+      "UserName": "us2",
+      "PassWord": "123",
+      "UserType": "2"
+    },
+    {
+      "id": "3",
+      "UserName": "us3",
+      "PassWord": "1234",
+      "UserType": "1"
+    }
+  ],
+  "Parent": [
+    {
+      "id": "1",
+      "UserID": 1,
+      "ParentName": "Nguyễn Công Hậu",
+      "ParentEmail": "nguyenhau@gmail.com"
+    },
+    {
+      "id": "2",
+      "UserID": 3,
+      "ParentName": "Nguyễn Công Nam",
+      "ParentEmail": "nguyennam@gmail.com"
+    }
+  ],
+  "Teacher": [
+    {
+      "id": "1",
+      "UserID": 2,
+      "Name": "Nguyễn Quốc Cường",
+      "SubjectTC": "1",
+      "SDT": "0964462741"
+    },
+    {
+      "id": "2",
+      "UserID": 3,
+      "Name": "Đặng Nguyễn Công Hậu",
+      "SubjectTC": "2",
+      "SDT": "0964462741"
+    },
+    {
+      "id": "3",
+      "UserID": 3,
+      "Name": "Nguyễn Hoàng Nam",
+      "SubjectTC": "3",
+      "SDT": "0964462741"
+    },
+    {
+      "id": "4",
+      "UserID": 4,
+      "Name": "Nguyễn Quốc Hậu",
+      "SubjectTC": "4",
+      "SDT": "0964462741"
+    },
+    {
+      "id": "5",
+      "UserID": 5,
+      "Name": "Nguyễn Quốc Cường",
+      "SubjectTC": "5",
+      "SDT": "0964462741"
+    },
+    {
+      "id": "6",
+      "UserID": 5,
+      "Name": "Trần Văn Hùng",
+      "SubjectTC": "6",
+      "SDT": "0964462742"
+    },
+    {
+      "id": "7",
+      "UserID": 4,
+      "Name": "Lê Thị Bích",
+      "SubjectTC": "7",
+      "SDT": "0964462743"
+    }
+  ],
+  "Student": [
+    {
+      "StudentId": 1,
+      "UserId": 1,
+      "Name": "Nguyễn Quốc Cường",
+      "DateOfBirth": "27/03/2002",
+      "ClassId": 2,
+      "SDTPH": "0964462741",
+      "id": "144c"
+    },
+    {
+      "StudentId": 2,
+      "UserId": 1,
+      "Name": "Trần Thị Lan",
+      "DateOfBirth": "15/07/2003",
+      "ClassId": 2,
+      "SDTPH": "0964462741",
+      "id": "80e0"
+    },
+    {
+      "StudentId": 9,
+      "UserId": 2,
+      "Name": "Lê Văn Tùng",
+      "DateOfBirth": "08/11/2003",
+      "ClassId": 2,
+      "SDTPH": "0964462745",
+      "id": "2904"
+    },
+    {
+      "StudentId": 8,
+      "UserId": 3,
+      "Name": "Pạm Thị Hoa",
+      "DateOfBirth": "21/01/2003",
+      "ClassId": 2,
+      "SDTPH": "0964462746",
+      "id": "9e68"
+    },
+    {
+      "StudentId": 7,
+      "UserId": 4,
+      "Name": "Ngô Văn Bình",
+      "DateOfBirth": "05/09/2002",
+      "ClassId": 2,
+      "SDTPH": "0964462747",
+      "id": "84a5"
+    },
+    {
+      "StudentId": 6,
+      "UserId": 5,
+      "Name": "Phạm Tấn Liên",
+      "DateOfBirth": "05/09/2002",
+      "ClassId": 2,
+      "SDTPH": "0964462747",
+      "id": "84a5"
+    },
+    {
+      "StudentId": 2,
+      "UserId": 6,
+      "Name": "Trần Thị Lan",
+      "DateOfBirth": "15/07/2003",
+      "ClassId": 4,
+      "SDTPH": "0964462741",
+      "id": "80e0"
+    },
+    {
+      "StudentId": 3,
+      "UserId": 7,
+      "Name": "Lê Văn Tùng",
+      "DateOfBirth": "08/11/2003",
+      "ClassId": 4,
+      "SDTPH": "0964462745",
+      "id": "2904"
+    },
+    {
+      "StudentId": 4,
+      "UserId": 8,
+      "Name": "Pạm Thị Hoa",
+      "DateOfBirth": "21/01/2003",
+      "ClassId": 4,
+      "SDTPH": "0964462746",
+      "id": "9e68"
+    },
+    {
+      "StudentId": 5,
+      "UserId": 9,
+      "Name": "Ngô Văn Bình",
+      "DateOfBirth": "05/09/2002",
+      "ClassId": 4,
+      "SDTPH": "0964462747",
+      "id": "84a5"
+    },
+    {
+      "StudentId": 5,
+      "UserId": 10,
+      "Name": "Phạm Tấn Liên",
+      "DateOfBirth": "05/09/2002",
+      "ClassId": 4,
+      "SDTPH": "0964462747",
+      "id": "84a5"
+    }
+  ],
+  "Grade": [
+    {
+      "GradeID": 1,
+      "Grade": 10,
+      "AcademicYear": 2021,
+      "id": "abeb"
+    },
+    {
+      "GradeID": 2,
+      "Grade": 11,
+      "AcademicYear": 2022,
+      "id": "62ce"
+    },
+    {
+      "GradeID": 3,
+      "Grade": 12,
+      "AcademicYear": 2023,
+      "id": "a105"
+    }
+  ],
+  "NienKhoa": [
+    {
+      "NienKhoaId": 1,
+      "NienKhoa": "2021-2023",
+      "id": "8ef8"
+    },
+    {
+      "NienKhoaId": 2,
+      "NienKhoa": "2022-2024",
+      "id": "f270"
+    },
+    {
+      "NienKhoaId": 3,
+      "NienKhoa": "2023-2025",
+      "id": "b1f0"
+    }
+  ],
+  "Class": [
+    {
+      "ClassId": 1,
+      "ClassName": "A1",
+      "TeacherId": 1,
+      "Khoahoc": "2021-2023",
+      "AcademicYear": 2021,
+      "GradeId": 10,
+      "id": "6744"
+    },
+    {
+      "ClassId": 2,
+      "ClassName": "A1",
+      "TeacherId": 1,
+      "Khoahoc": "2021-2023",
+      "AcademicYear": 2022,
+      "GradeId": 11,
+      "id": "0292"
+    },
+    {
+      "ClassId": 3,
+      "ClassName": "A1",
+      "TeacherId": 1,
+      "Khoahoc": "2021-2023",
+      "AcademicYear": 2023,
+      "GradeId": 12,
+      "id": "2a1b"
+    },
+    {
+      "ClassId": 4,
+      "ClassName": "A2",
+      "TeacherId": 1,
+      "Khoahoc": "2021-2023",
+      "AcademicYear": 2021,
+      "GradeId": 10,
+      "id": "98d7"
+    },
+    {
+      "ClassId": 5,
+      "ClassName": "A2",
+      "TeacherId": 1,
+      "Khoahoc": "2021-2023",
+      "AcademicYear": 2022,
+      "GradeId": 11,
+      "id": "37b5"
+    }
+  ],
+  "TeacherClassAssignment": [
+    {
+      "AssignmentId": 1,
+      "TeacherId": 1,
+      "ClassId": 1,
+      "IsHeadTeacher": 1,
+      "id": "01c2"
+    },
+    {
+      "AssignmentId": 2,
+      "TeacherId": 1,
+      "ClassId": 2,
+      "IsHeadTeacher": 1,
+      "id": "df05"
+    },
+    {
+      "AssignmentId": 3,
+      "TeacherId": 1,
+      "ClassId": 3,
+      "IsHeadTeacher": 1,
+      "id": "4523"
+    },
+    {
+      "AssignmentId": 4,
+      "TeacherId": 1,
+      "ClassId": 4,
+      "IsHeadTeacher": 0,
+      "id": "e85e"
+    },
+    {
+      "AssignmentId": 5,
+      "TeacherId": 1,
+      "ClassId": 5,
+      "IsHeadTeacher": 0,
+      "id": "5320"
+    }
+  ],
+  "Subject": [
+    {
+      "SubjectId": 1,
+      "SubjectName": "Toán",
+      "id": "88ea"
+    },
+    {
+      "SubjectId": 2,
+      "SubjectName": "Lý",
+      "id": "0f29"
+    },
+    {
+      "SubjectId": 3,
+      "SubjectName": "Hóa",
+      "id": "b633"
+    },
+    {
+      "SubjectId": 4,
+      "SubjectName": "Sinh",
+      "id": "2e81"
+    },
+    {
+      "SubjectId": 5,
+      "SubjectName": "Văn",
+      "id": "f18b"
+    },
+    {
+      "SubjectId": 6,
+      "SubjectName": "Sử",
+      "id": "6772"
+    },
+    {
+      "SubjectId": 7,
+      "SubjectName": "Địa",
+      "id": "da78"
+    }
+  ],
+  "Score": [
+    {
+      "ScoreId": 1,
+      "StudentId": 1,
+      "ClassId": 1,
+      "TeacherId": 1,
+      "Scores1": 7,
+      "Scores2": 8.2,
+      "Scores3": 6.5,
+      "Score15": 7.8,
+      "GiuaKi": 8.1,
+      "CuoiKi": 8.4,
+      "SubjectTC": 1,
+      "Semester": 1,
+      "id": "8145"
+    },
+    {
+      "ScoreId": 2,
+      "StudentId": 1,
+      "ClassId": 1,
+      "TeacherId": 1,
+      "Scores1": 6.5,
+      "Scores2": 7.1,
+      "Scores3": 5.4,
+      "Score15": 6.8,
+      "GiuaKi": 7.3,
+      "CuoiKi": 7.9,
+      "SubjectTC": 1,
+      "Semester": 2,
+      "id": "3db2"
+    },
+    {
+      "ScoreId": 3,
+      "StudentId": 1,
+      "ClassId": 1,
+      "TeacherId": 2,
+      "Scores1": 7.8,
+      "Scores2": 8,
+      "Scores3": 6.9,
+      "Score15": 8.1,
+      "GiuaKi": 7.2,
+      "CuoiKi": 8,
+      "SubjectTC": 2,
+      "Semester": 1,
+      "id": "0c1b"
+    },
+    {
+      "ScoreId": 4,
+      "StudentId": 1,
+      "ClassId": 1,
+      "TeacherId": 2,
+      "Scores1": 6.4,
+      "Scores2": 7.2,
+      "Scores3": 6.8,
+      "Score15": 7,
+      "GiuaKi": 7.8,
+      "CuoiKi": 8.2,
+      "SubjectTC": 2,
+      "Semester": 2,
+      "id": "608b"
+    },
+    {
+      "ScoreId": 5,
+      "StudentId": 1,
+      "ClassId": 1,
+      "TeacherId": 3,
+      "Scores1": 8.2,
+      "Scores2": 8.5,
+      "Scores3": 9,
+      "Score15": 9.5,
+      "GiuaKi": 7,
+      "CuoiKi": 8.8,
+      "SubjectTC": 3,
+      "Semester": 1,
+      "id": "351e"
+    },
+    {
+      "ScoreId": 6,
+      "StudentId": 1,
+      "ClassId": 1,
+      "TeacherId": 3,
+      "Scores1": 6.9,
+      "Scores2": 7.3,
+      "Scores3": 7.5,
+      "Score15": 7.1,
+      "GiuaKi": 7.5,
+      "CuoiKi": 8.4,
+      "SubjectTC": 3,
+      "Semester": 2,
+      "id": "6fc8"
+    },
+    {
+      "ScoreId": 7,
+      "StudentId": 1,
+      "ClassId": 1,
+      "TeacherId": 4,
+      "Scores1": 8.5,
+      "Scores2": 8.9,
+      "Scores3": 9.2,
+      "Score15": 9.4,
+      "GiuaKi": 7.8,
+      "CuoiKi": 9,
+      "SubjectTC": 4,
+      "Semester": 1,
+      "id": "e463"
+    },
+    {
+      "ScoreId": 8,
+      "StudentId": 1,
+      "ClassId": 1,
+      "TeacherId": 4,
+      "Scores1": 7,
+      "Scores2": 7.8,
+      "Scores3": 8.3,
+      "Score15": 7.9,
+      "GiuaKi": 7.7,
+      "CuoiKi": 8.1,
+      "SubjectTC": 4,
+      "Semester": 2,
+      "id": "635f"
+    },
+    {
+      "ScoreId": 9,
+      "StudentId": 1,
+      "ClassId": 1,
+      "TeacherId": 5,
+      "Scores1": 8.8,
+      "Scores2": 8.4,
+      "Scores3": 9.1,
+      "Score15": 9.3,
+      "GiuaKi": 8.5,
+      "CuoiKi": 8.7,
+      "SubjectTC": 5,
+      "Semester": 1,
+      "id": "9e0c"
+    },
+    {
+      "ScoreId": 9,
+      "StudentId": 1,
+      "ClassId": 1,
+      "TeacherId": 5,
+      "Scores1": 8.8,
+      "Scores2": 8.4,
+      "Scores3": 9.1,
+      "Score15": 9.3,
+      "GiuaKi": 8.5,
+      "CuoiKi": 8.7,
+      "SubjectTC": 5,
+      "Semester": 2,
+      "id": "528b"
+    },
+    {
+      "ScoreId": 11,
+      "StudentId": 1,
+      "ClassId": 2,
+      "TeacherId": 1,
+      "Scores1": 6.5,
+      "Scores2": 7.1,
+      "Scores3": 5.4,
+      "Score15": 6.8,
+      "GiuaKi": 7.3,
+      "CuoiKi": 7.9,
+      "SubjectTC": 1,
+      "Semester": 1,
+      "id": "3db2"
+    },
+    {
+      "ScoreId": 12,
+      "StudentId": 1,
+      "ClassId": 2,
+      "TeacherId": 2,
+      "Scores1": 7.8,
+      "Scores2": 8,
+      "Scores3": 6.9,
+      "Score15": 8.1,
+      "GiuaKi": 7.2,
+      "CuoiKi": 8,
+      "SubjectTC": 2,
+      "Semester": 1,
+      "id": "0c1b"
+    },
+    {
+      "ScoreId": 14,
+      "StudentId": 1,
+      "ClassId": 2,
+      "TeacherId": 3,
+      "Scores1": 8.2,
+      "Scores2": 8.5,
+      "Scores3": 9,
+      "Score15": 9.5,
+      "GiuaKi": 7,
+      "CuoiKi": 8.8,
+      "SubjectTC": 3,
+      "Semester": 1,
+      "id": "351e"
+    },
+    {
+      "ScoreId": 16,
+      "StudentId": 1,
+      "ClassId": 2,
+      "TeacherId": 4,
+      "Scores1": 8.5,
+      "Scores2": 8.9,
+      "Scores3": 9.2,
+      "Score15": 9.4,
+      "GiuaKi": 7.8,
+      "CuoiKi": 9,
+      "SubjectTC": 4,
+      "Semester": 1,
+      "id": "e463"
+    },
+    {
+      "ScoreId": 18,
+      "StudentId": 1,
+      "ClassId": 2,
+      "TeacherId": 5,
+      "Scores1": 8.8,
+      "Scores2": 8.4,
+      "Scores3": 9.1,
+      "Score15": 9.3,
+      "GiuaKi": 8.5,
+      "CuoiKi": 8.7,
+      "SubjectTC": 5,
+      "Semester": 1,
+      "id": "97ff"
+    },
+    {
+      "ScoreId": 11,
+      "StudentId": 2,
+      "ClassId": 4,
+      "TeacherId": 1,
+      "Scores1": 6.5,
+      "Scores2": 7.1,
+      "Scores3": 5.4,
+      "Score15": 6.8,
+      "GiuaKi": 7.3,
+      "CuoiKi": 7.9,
+      "SubjectTC": 1,
+      "Semester": 1,
+      "id": "3db2"
+    },
+    {
+      "ScoreId": 12,
+      "StudentId": 2,
+      "ClassId": 4,
+      "TeacherId": 2,
+      "Scores1": 7.8,
+      "Scores2": 8,
+      "Scores3": 6.9,
+      "Score15": 8.1,
+      "GiuaKi": 7.2,
+      "CuoiKi": 8,
+      "SubjectTC": 2,
+      "Semester": 1,
+      "id": "0c1b"
+    },
+    {
+      "ScoreId": 14,
+      "StudentId": 2,
+      "ClassId": 4,
+      "TeacherId": 3,
+      "Scores1": 8.2,
+      "Scores2": 8.5,
+      "Scores3": 9,
+      "Score15": 9.5,
+      "GiuaKi": 7,
+      "CuoiKi": 8.8,
+      "SubjectTC": 3,
+      "Semester": 1,
+      "id": "351e"
+    },
+    {
+      "ScoreId": 16,
+      "StudentId": 2,
+      "ClassId": 4,
+      "TeacherId": 4,
+      "Scores1": 8.5,
+      "Scores2": 8.9,
+      "Scores3": 9.2,
+      "Score15": 9.4,
+      "GiuaKi": 7.8,
+      "CuoiKi": 9,
+      "SubjectTC": 4,
+      "Semester": 1,
+      "id": "e463"
+    },
+    {
+      "ScoreId": 18,
+      "StudentId": 2,
+      "ClassId": 4,
+      "TeacherId": 5,
+      "Scores1": 8.8,
+      "Scores2": 8.4,
+      "Scores3": 9.1,
+      "Score15": 9.3,
+      "GiuaKi": 8.5,
+      "CuoiKi": 8.7,
+      "SubjectTC": 5,
+      "Semester": 1,
+      "id": "97ff"
+    },
+    {
+      "ScoreId": 13,
+      "StudentId": 3,
+      "ClassId": 2,
+      "TeacherId": 2,
+      "Scores1": 8.1,
+      "Scores2": 8.3,
+      "Scores3": 8.5,
+      "Score15": 8.9,
+      "GiuaKi": 8.1,
+      "CuoiKi": 8.6,
+      "SubjectTC": 2,
+      "Semester": 1,
+      "id": "4027"
+    },
+    {
+      "ScoreId": 14,
+      "StudentId": 4,
+      "ClassId": 2,
+      "TeacherId": 2,
+      "Scores1": 7.2,
+      "Scores2": 7.8,
+      "Scores3": 8.1,
+      "Score15": 7.9,
+      "GiuaKi": 7.7,
+      "CuoiKi": 8.3,
+      "SubjectTC": 2,
+      "Semester": 2,
+      "id": "63e3"
+    },
+    {
+      "ScoreId": 15,
+      "StudentId": 5,
+      "ClassId": 2,
+      "TeacherId": 3,
+      "Scores1": 8.3,
+      "Scores2": 8.6,
+      "Scores3": 8.8,
+      "Score15": 9.1,
+      "GiuaKi": 8.3,
+      "CuoiKi": 8.9,
+      "SubjectTC": 3,
+      "Semester": 1,
+      "id": "68a7"
+    },
+    {
+      "ScoreId": 16,
+      "StudentId": 5,
+      "ClassId": 2,
+      "TeacherId": 3,
+      "Scores1": 7.5,
+      "Scores2": 7.9,
+      "Scores3": 8.2,
+      "Score15": 8.3,
+      "GiuaKi": 7.8,
+      "CuoiKi": 8.5,
+      "SubjectTC": 1,
+      "Semester": 2,
+      "id": "fe86"
+    },
+    {
+      "ScoreId": 17,
+      "StudentId": 2,
+      "ClassId": 4,
+      "TeacherId": 1,
+      "Scores1": 8.7,
+      "Scores2": 8.9,
+      "Scores3": 9,
+      "Score15": 9.2,
+      "GiuaKi": 8.8,
+      "CuoiKi": 8.7,
+      "SubjectTC": 1,
+      "Semester": 1,
+      "id": "3441"
+    },
+    {
+      "ScoreId": 18,
+      "StudentId": 3,
+      "ClassId": 4,
+      "TeacherId": 1,
+      "Scores1": 7.6,
+      "Scores2": 7.9,
+      "Scores3": 8.2,
+      "Score15": 8,
+      "GiuaKi": 7.5,
+      "CuoiKi": 8.4,
+      "SubjectTC": 1,
+      "Semester": 1,
+      "id": "fd50"
+    },
+    {
+      "ScoreId": 19,
+      "StudentId": 4,
+      "ClassId": 4,
+      "TeacherId": 5,
+      "Scores1": 8.9,
+      "Scores2": 9.1,
+      "Scores3": 9.3,
+      "Score15": 9.4,
+      "GiuaKi": 9,
+      "CuoiKi": 9.2,
+      "SubjectTC": 1,
+      "Semester": 1,
+      "id": "638c"
+    },
+    {
+      "ScoreId": 20,
+      "StudentId": 5,
+      "ClassId": 4,
+      "TeacherId": 5,
+      "Scores1": 7.8,
+      "Scores2": 8,
+      "Scores3": 8.3,
+      "Score15": 8.5,
+      "GiuaKi": 8.1,
+      "CuoiKi": 8.6,
+      "SubjectTC": 1,
+      "Semester": 1,
+      "id": "74d5"
+    }
+  ],
+  "Notifications": [
+    {
+      "SenderId": 1,
+      "NameContent": "Thông báo về học tuần này đã được cập nhật.",
+      "Content": "Tuần này, lịch học của chúng ta đã được cập nhật với nhiều thay đổi quan trọng. Các bạn học sinh cấp 3 chú ý theo dõi để không bỏ lỡ những buổi học cần thiết. Đầu tiên, vào thứ Hai và thứ Ba, chúng ta sẽ có tiết học Toán vào buổi sáng từ 8h đến 10h, tiếp theo là tiết Văn từ 10h30 đến 12h. Buổi chiều sẽ là thời gian dành cho các môn học tự chọn như Âm nhạc và Hội họa, từ 13h30 đến 15h. Thứ Tư và thứ Năm, chúng ta sẽ tập trung vào các môn Khoa học Tự nhiên. Buổi sáng sẽ là tiết Lý và Hóa từ 8h đến 11h. Buổi chiều, chúng ta sẽ có tiết Sinh học từ 13h đến 14h30, và sau đó là giờ tự học có giám sát từ 15h đến 16h30. Cuối tuần, thứ Sáu, chúng ta sẽ có tiết học Tiếng Anh từ 8h đến 10h, tiếp theo là tiết Giáo dục Công dân từ 10h30 đến 12h. Buổi chiều thứ Sáu sẽ là thời gian dành cho các hoạt động ngoại khóa và thể dục thể thao. Các bạn nhớ kiểm tra kỹ lịch học và chuẩn bị đầy đủ sách vở, dụng cụ học tập để có thể học tập hiệu quả. Chúc các bạn một tuần học tập thật nhiều năng lượng và thành công!",
+      "Timestamp": "2024-05-05 09:00:00",
+      "Idrrecive": {},
+      "id": "9c4a"
+    },
+    {
+      "id": "d28f",
+      "SenderId": "2",
+      "NameContent": "zcxczx",
+      "Content": "zxczxc",
+      "Timestamp": "2024-06-22T01:45:09.987Z",
+      "Idrrecive": {
+        "IdCLass": 2,
+        "idstudent": null
+      }
+    },
+    {
+      "id": "cb42",
+      "SenderId": "2",
+      "NameContent": "zssafasf",
+      "Content": "se32dfwef32f32",
+      "Timestamp": "2024-06-22T01:51:00.851Z",
+      "RecipientType": "Student",
+      "RecipientIds": {
+        "IdClass": null,
+        "IdStudent": 1
+      }
+    },
+    {
+      "id": "4008",
+      "SenderId": "2",
+      "NameContent": "thong bao",
+      "Content": "ngay mai lop kiem tra 15p",
+      "Timestamp": "2024-07-01T22:43:12.382Z",
+      "RecipientType": "Class",
+      "RecipientIds": {
+        "IdClass": 2,
+        "IdStudent": null
+      }
+    },
+    {
+      "id": "9406",
+      "SenderId": "2",
+      "NameContent": "mai bo cao",
+      "Content": "aloo",
+      "Timestamp": "2024-07-01T23:31:15.649Z",
+      "RecipientType": "Class",
+      "RecipientIds": {
+        "IdClass": 4,
+        "IdStudent": null
+      }
+    },
+    {
+      "id": "eb74",
+      "SenderId": "2",
+      "NameContent": "34434",
+      "Content": "532553252",
+      "Timestamp": "2024-07-01T23:37:08.065Z",
+      "RecipientType": "Class",
+      "RecipientIds": {
+        "IdClass": 4,
+        "IdStudent": null
+      }
+    }
+  ],
+  "Timetable": [
+    {
+      "ClassId": 2,
+      "Times": "7:30 - 9:30",
+      "Date": "2024-06-10",
+      "SubjectId": 1,
+      "TeacherID": 1,
+      "id": "0a06"
+    },
+    {
+      "ClassId": 2,
+      "Times": "9:45 - 11:45",
+      "Date": "2024-06-10",
+      "SubjectId": 2,
+      "TeacherID": 2,
+      "id": "531a"
+    },
+    {
+      "ClassId": 2,
+      "Times": "13:30 - 15:30",
+      "Date": "2024-06-10",
+      "SubjectId": 3,
+      "TeacherID": 3,
+      "id": "a098"
+    },
+    {
+      "ClassId": 2,
+      "Times": "7:30 - 9:30",
+      "Date": "2024-06-11",
+      "SubjectId": 2,
+      "TeacherID": 2,
+      "id": "f9b9"
+    },
+    {
+      "ClassId": 2,
+      "Times": "9:45 - 11:45",
+      "Date": "2024-06-11",
+      "SubjectId": 1,
+      "TeacherID": 1,
+      "id": "ad68"
+    },
+    {
+      "ClassId": 2,
+      "Times": "13:30 - 15:30",
+      "Date": "2024-06-11",
+      "SubjectId": 2,
+      "TeacherID": 2,
+      "id": "ca4e"
+    },
+    {
+      "ClassId": 2,
+      "Times": "7:30 - 9:30",
+      "Date": "2024-06-12",
+      "SubjectId": 3,
+      "TeacherID": 3,
+      "id": "716a"
+    },
+    {
+      "ClassId": 2,
+      "Times": "9:45 - 11:45",
+      "Date": "2024-06-12",
+      "SubjectId": 1,
+      "TeacherID": 1,
+      "id": "123e"
+    },
+    {
+      "ClassId": 2,
+      "Times": "13:30 - 15:30",
+      "Date": "2024-06-12",
+      "SubjectId": 2,
+      "TeacherID": 2,
+      "id": "fabb"
+    },
+    {
+      "ClassId": 2,
+      "Times": "7:30 - 9:30",
+      "Date": "2024-06-13",
+      "SubjectId": 3,
+      "TeacherID": 3,
+      "id": "2eb6"
+    },
+    {
+      "ClassId": 2,
+      "Times": "9:45 - 11:45",
+      "Date": "2024-06-13",
+      "SubjectId": 4,
+      "TeacherID": 4,
+      "id": "e5f2"
+    },
+    {
+      "ClassId": 2,
+      "Times": "13:30 - 15:30",
+      "Date": "2024-06-13",
+      "SubjectId": 1,
+      "TeacherID": 1,
+      "id": "c2d4"
+    },
+    {
+      "ClassId": 2,
+      "Times": "7:30 - 9:30",
+      "Date": "2024-06-14",
+      "SubjectId": 3,
+      "TeacherID": 3,
+      "id": "fdc7"
+    },
+    {
+      "ClassId": 2,
+      "Times": "9:45 - 11:45",
+      "Date": "2024-06-14",
+      "SubjectId": 2,
+      "TeacherID": 2,
+      "id": "2ed1"
+    },
+    {
+      "ClassId": 2,
+      "Times": "13:30 - 15:30",
+      "Date": "2024-06-14",
+      "SubjectId": 1,
+      "TeacherID": 1,
+      "id": "1ec0"
+    }
+  ],
+  "Attendance": [
+    {
+      "id": "1",
+      "student_id": 1,
+      "date": "2024-06-10",
+      "status": "present",
+      "notes": ""
+    },
+    {
+      "id": "2",
+      "student_id": 1,
+      "date": "2024-06-11",
+      "status": "absent",
+      "notes": "Ốm"
+    },
+    {
+      "id": "3",
+      "student_id": 1,
+      "date": "2024-06-12",
+      "status": "late",
+      "notes": "Đến muộn 10 phút"
+    },
+    {
+      "id": "4",
+      "student_id": 1,
+      "date": "2024-06-13",
+      "status": "excused",
+      "notes": "Có phép nghỉ"
+    },
+    {
+      "id": "5",
+      "student_id": 1,
+      "date": "2024-06-14",
+      "status": "unexcused",
+      "notes": "Nghỉ không phép"
+    },
+    {
+      "id": "1e4d",
+      "student_id": 1,
+      "date": "2024-06-15",
+      "status": "excused",
+      "notes": "Bị ốm"
+    },
+    {
+      "id": "b14c",
+      "student_id": 1,
+      "date": "2024-06-12",
+      "status": "excused",
+      "notes": "hiuuu"
+    },
+    {
+      "id": "395d",
+      "student_id": 1,
+      "date": "2024-12-12",
+      "status": "excused",
+      "notes": "om"
+    },
+    {
+      "id": "ead2",
+      "student_id": 1,
+      "date": "2024-06-16",
+      "status": "excused",
+      "notes": "om"
+    },
+    {
+      "id": "b288",
+      "student_id": 0,
+      "date": "2024-12-12",
+      "status": "excused",
+      "notes": "ooms"
+    },
+    {
+      "id": "613c",
+      "student_id": 0,
+      "date": "2024-12-12",
+      "status": "excused",
+      "notes": "om"
+    },
+    {
+      "id": "e30f",
+      "student_id": 0,
+      "date": "2024-12-12",
+      "status": "excused",
+      "notes": "om"
+    },
+    {
+      "id": "107d",
+      "student_id": 1,
+      "date": "2024-06-17",
+      "status": "excused",
+      "notes": "om"
+    },
+    {
+      "id": "3d61",
+      "student_id": 2,
+      "date": "2024-06--16",
+      "status": "excused",
+      "notes": "om"
+    },
+    {
+      "id": "a26a",
+      "student_id": 2,
+      "date": "2024-06-17",
+      "status": "excused",
+      "notes": "om"
+    },
+    {
+      "id": "fb00",
+      "student_id": null,
+      "date": "2024-06-26",
+      "status": "excused",
+      "notes": "om"
+    }
+  ],
+  "LeaveRequests": [
+    {
+      "id": "1",
+      "Userid": "1",
+      "idstudent": "1",
+      "idsteacher": "",
+      "date": "2024-06-15",
+      "reason": "Bị ốm",
+      "status": "approved"
+    },
+    {
+      "id": "4820",
+      "Userid": "2",
+      "date": "2024-06-26",
+      "reason": "om",
+      "status": "approved"
+    }
+  ],
+  "News": [
+    {
+      "id": "1",
+      "title": "Lịch học tuần này",
+      "description": "Cập nhật lịch học cho tuần này. Các bạn học sinh chú ý theo dõi để không bỏ lỡ những buổi học cần thiết.",
+      "content": "Tuần này, lịch học của chúng ta đã được cập nhật với nhiều thay đổi quan trọng. Vào thứ Hai và thứ Ba, chúng ta sẽ có tiết học Toán vào buổi sáng từ 8h đến 10h, tiếp theo là tiết Văn từ 10h30 đến 12h. Buổi chiều sẽ là thời gian dành cho các môn học tự chọn như Âm nhạc và Hội họa, từ 13h30 đến 15h. Thứ Tư và thứ Năm, chúng ta sẽ tập trung vào các môn Khoa học Tự nhiên. Buổi sáng sẽ là tiết Lý và Hóa từ 8h đến 11h. Buổi chiều, chúng ta sẽ có tiết Sinh học từ 13h đến 14h30, và sau đó là giờ tự học có giám sát từ 15h đến 16h30. Cuối tuần, thứ Sáu, chúng ta sẽ có tiết học Tiếng Anh từ 8h đến 10h, tiếp theo là tiết Giáo dục Công dân từ 10h30 đến 12h. Buổi chiều thứ Sáu sẽ là thời gian dành cho các hoạt động ngoại khóa và thể dục thể thao. Các bạn nhớ kiểm tra kỹ lịch học và chuẩn bị đầy đủ sách vở, dụng cụ học tập để có thể học tập hiệu quả. Chúc các bạn một tuần học tập thật nhiều năng lượng và thành công!"
+    },
+    {
+      "id": "2",
+      "title": "Thay đổi khẩu phần ăn",
+      "description": "Thông báo về sự thay đổi trong khẩu phần ăn tại căng-tin trường học bắt đầu từ tuần này.",
+      "content": "Chào các bạn học sinh, chúng tôi xin thông báo về sự thay đổi trong khẩu phần ăn tại căng-tin trường học bắt đầu từ tuần này. Nhằm đảm bảo sức khỏe và dinh dưỡng cho các bạn, chúng tôi đã tiến hành điều chỉnh thực đơn hàng ngày. Thứ Hai: Sáng sẽ có bánh mì kẹp trứng và sữa đậu nành, trưa là cơm với thịt gà xào sả ớt và rau muống luộc, chiều là trái cây tươi. Thứ Ba: Sáng có phở bò và nước cam, trưa là cơm với cá kho tộ và canh rau ngót, chiều có yogurt trái cây. Thứ Tư: Sáng là xôi mặn và sữa tươi, trưa là cơm với thịt heo kho tàu và cải thìa xào tỏi, chiều là bánh flan. Thứ Năm: Sáng có bún thịt nướng và trà chanh, trưa là cơm với thịt bò xào cần tây và canh bí đỏ, chiều là chè đậu xanh. Thứ Sáu: Sáng là bánh bao và sữa bắp, trưa là cơm với tôm rim và rau cải xào, chiều là sinh tố trái cây. Chúng tôi hy vọng rằng sự thay đổi này sẽ mang lại những bữa ăn ngon miệng và đầy đủ dinh dưỡng cho các bạn. Nếu có bất kỳ thắc mắc hay góp ý nào về khẩu phần ăn, các bạn vui lòng liên hệ với ban quản lý căng-tin. Chúc các bạn có những bữa ăn vui vẻ và tràn đầy năng lượng! Trân trọng, Ban Giám Hiệu."
+    },
+    {
+      "id": "3",
+      "title": "Hoạt động ngoại khóa",
+      "description": "Thông báo về các hoạt động ngoại khóa sẽ diễn ra trong tháng này.",
+      "content": "Các bạn học sinh thân mến, trong tháng này, trường chúng ta sẽ tổ chức nhiều hoạt động ngoại khóa hấp dẫn nhằm giúp các bạn có thêm những trải nghiệm bổ ích và thú vị. Cụ thể, vào thứ Bảy tuần này, chúng ta sẽ có buổi dã ngoại tại công viên với nhiều hoạt động như chơi thể thao, cắm trại và tham gia các trò chơi tập thể. Vào chủ nhật, chúng ta sẽ có buổi học kỹ năng sống với các chuyên đề về kỹ năng giao tiếp, làm việc nhóm và quản lý thời gian. Ngoài ra, các câu lạc bộ trong trường cũng sẽ tổ chức nhiều buổi sinh hoạt và giao lưu để các bạn có cơ hội học hỏi và trao đổi kinh nghiệm. Các bạn hãy đăng ký tham gia các hoạt động này tại văn phòng Đoàn trường. Chúc các bạn có những trải nghiệm thật tuyệt vời và đáng nhớ!"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "519179387457",
+    "project_id": "appsolienlac",
+    "storage_bucket": "appsolienlac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519179387457:android:d28ea219a65a37eacc3cc0",
+        "android_client_info": {
+          "package_name": "com.demo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMmMwFOYvvFQlqf5FOW5j1_Qrf9nFdUGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
